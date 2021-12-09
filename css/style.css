@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("../img/slika1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+    width: 20rem;
+    border: 2px solid #112a9c;
+    position: relative;
+  
+  }
+
+  .container {
+      position: absolute;
+      top:100px;
+      left:288px;
+}
+
+form button {
+    background-color: #7337e2;
+    color:rgb(172, 160, 216);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
