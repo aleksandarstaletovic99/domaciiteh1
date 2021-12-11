@@ -76,6 +76,10 @@
                                 <td><?php echo $row['opis']  ?></td>
                                 <td><?php echo $row['godina']  ?></td>
                                 <td><a href="kontroler/delete.php?id=<?php echo $row['filmID'] ?>">Obrisi</a></td>
+                                <a href="kontroler/edit.php?id=<?php echo $row['filmID'] ?>">Izmeni</a>
+
+                                <a href="kontroler/delete.php?id=<?php echo $row['filmID'] ?>">Obrisi</a>
+
                             </tr>
                             <?php } ?>
                     </tbody>
