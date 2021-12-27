@@ -85,7 +85,7 @@
         </div>
         <script type="text/javascript">
         function deleteAjax(filmId){
-                if(confirm('are You sure?')){
+                if(confirm('Da li ste sigurni?')){
                     $.ajax({
                         type:'post',
                         url:'kontroler/delete.php',
