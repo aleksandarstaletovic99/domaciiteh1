@@ -27,7 +27,7 @@
             <div class="col-md-4">
                
                 <div class="card card-body">
-                    <form action="kontroler/add.php" method="POST" onsubmit="return validateForm()">
+                <form action="kontroler/add.php" id="dodajFonmuZaUnosFilmova" method="POST" onsubmit="return validateForm()">
 
                         <div class="form-group">
                             <input type="text" name="naziv" class="form-control" placeholder="Naziv" autofocus>
